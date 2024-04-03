@@ -38,7 +38,7 @@ class _MainPageState extends State<MainPage> {
           onWebResourceError: (WebResourceError error) {},
         ),
       )
-      ..loadRequest(Uri.parse('https://deku.posstree.com/en/'));
+      ..loadRequest(Uri.parse('https://v1bcgfth-8080.use2.devtunnels.ms/'));
     super.initState();
   }
 
